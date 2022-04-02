@@ -11,5 +11,25 @@ public class TesteListaLigada {
         System.out.println(lista);
         lista.adicionaNoComeco("guilherme");
         System.out.println(lista);
+
+        //teste do método adiciona
+        lista.adiciona("marcelo");
+        System.out.println(lista);
+
+        //out do método pegaCelula
+        lista.adiciona(2, "gabriel");
+        System.out.println(lista);
+
+        //out do método pega
+        Object x = lista.pega(2);
+        System.out.println(x);
+
+        //out do método tamanho
+        System.out.println(lista.tamanho());
+
+        //out do método removeDoComeco
+        lista.removeDoComeco();
+        System.out.println(lista);
+
     }
 }
