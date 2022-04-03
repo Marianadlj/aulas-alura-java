@@ -31,5 +31,16 @@ public class TesteListaLigada {
         lista.removeDoComeco();
         System.out.println(lista);
 
+        //out do método removeDoFim
+        lista.removeDoFim();
+        System.out.println(lista);
+
+        //out do método remove
+        lista.remove(2);
+        System.out.println(lista);
+
+        //out do método contem
+        System.out.println(lista.contem("mauricio"));
+        System.out.println(lista.contem("danilo"));
     }
 }
